@@ -27,4 +27,5 @@ $NomeCompleto = $nome1 . " " . $nome2;
 
 echo $NomeCompleto;
 
+
 ?>

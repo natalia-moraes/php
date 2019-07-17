@@ -8,9 +8,21 @@
   var_dump($a < $b);
   echo "<br>";
   
-  //Operador de identidade = comparação para valor
+  //Operador de igualdade = comparação para valor
   var_dump($a == $b); 
-  
-  //Operador de = comparação para valor e tipo
+  echo "<br>";
+
+  //Operador de igualdade de identidade = comparação para valor e tipo
   var_dump($a === $b); 
+  echo "<br>";
+
+  //Operador diferença para valor
+  var_dump($a != $b); 
+  echo "<br>";
+
+  //Operador diferença para valor e tipo
+  var_dump($a !== $b); 
+  echo "<br>";
+
+
 ?>

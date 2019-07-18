@@ -20,6 +20,12 @@
   //função para mudar 1 letra - geralmente aplica se em paragrafo
   echo ucfirst($nome);
   
-  
+  //trocar informação 
+  $empresa = "Hcode";
+
+  $empresa = str_replace("o" , "0" , $empresa);
+  $empresa = str_replace("e" , "3" , $empresa);
+
+  echo $empresa;
   
 ?>
